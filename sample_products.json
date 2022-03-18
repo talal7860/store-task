@@ -1,0 +1,39 @@
+[
+  {
+    "code":"A",
+    "price_cents":200,
+    "promotion":{
+      "type":"group",
+      "quantity":5,
+      "price_cents":900
+    }
+  },
+  {
+    "code":"B",
+    "price_cents":1000,
+    "promotion":{
+      "type":"combination",
+      "product_code":"E",
+      "price_cents":0
+    }
+  },
+  {
+    "code":"C",
+    "price_cents":125,
+    "promotion":{
+      "type":"group",
+      "quantity":6,
+      "price_cents":600
+    }
+  },
+  {
+    "code":"D",
+    "price_cents":15,
+    "promotion": {}
+  },
+  {
+    "code":"E",
+    "price_cents":200,
+    "promotion": {}
+  }
+]
