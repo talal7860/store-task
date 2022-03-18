@@ -50,3 +50,9 @@ $ docker run --rm store-task /bin/bash -c "bundle exec rspec spec/"
 
 ## To use a new sample data
 Please look at `bin/process.rb` file, you can change the `sample_products.json` file to use a new sample data.
+
+## TODO
+- Add support for multiple promotions
+- Add CI
+- Add support for other currencies
+- Add better exception handling on invalid data
